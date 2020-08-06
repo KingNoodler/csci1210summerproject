@@ -1,5 +1,5 @@
 /*
-	Author:			Luke Collins
+	Author:			Team A
 	Date:			07/29/20	
 	Assignment:		Project	
 	Purpose:		Provide CSS stlying for the project site
@@ -49,6 +49,28 @@ nav a:hover {
 	margin-left: 260px;
 	font-family: 'Montserrat', sans-serif;
 	margin-top: 25px;
+}
+
+div.container {
+	position: relative;
+	top: 17em;
+    margin: 20px auto;
+	max-width: 800px;
+	min-width: 320px;
+}
+
+div.inner {
+	box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+    box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+	padding: 5px;
+}
+
+h2 {
+	text-align: center;
+}
+
+h3 {
+	margin-left: 4em;
 }
 .footer {
 	position: fixed;
