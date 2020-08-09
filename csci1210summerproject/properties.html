@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Luke Collins">
+    <meta name="description" content="properties">
+    <meta name="keywords" content="properties">
+    <title>Properties</title>
+
+    <link rel="icon" href="images/icon.png">
+    <link rel="stylesheet" href="css/stylesheet.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+	<script>
+		function showFrom() {
+			var strText = document.getElementById("").value;
+			var strText = document.getElementById("Address").value;
+			var strText = document.getElementById("Type").value;
+			var strText = document.getElementById("YearBuilt").value;
+			var strText = document.getElementById("HeatingandCooling").value;
+			var strText = document.getElementById("Parking").value;
+			var strText = document.getElementById("Lot").value;
+			var strText = document.getElementById("Price/SqFt").value;
+			}
+	</script>
+			
+    <!-- 
+		Author:		Jared Taylor			
+		Date:		8/7/2020			
+		Assignment:	Summer Project		
+		Purpose:	Create a page for information on available properties	
+	-->
+</head>
+<body>
+	<nav>
+		<img class="logo" src="images/icon.png" alt="logo of anchor properties">
+		<h1 class="head"><u>Anchor Properties</u></h1>
+		<a href="home.html">Home</a>
+		<a href="aboutUs.html">About Us</a>
+		<a href="properties.html">Properties</a>
+		<a href="contactUs.html">Contact Us</a>
+	</nav>
+	
+	<div class="container">
+			<div class="inner">
+				<h3>Create Listing</h3>
+					<p>				
+						<form name="property">
+							Photo:<input type="file" id="propertyPicture" name="propertyPicture"> <br>
+							Address:<input type="text" id="Address" name="Address"> <br>
+							Type:<input type="text" id="Type" name="Type"> <br>
+							Year Built:<input type="text" id="YearBuilt" name="Year Built"> <br>
+							Heating and Cooling:<input type="text" id="HeatingandCooling" name="Heating and Cooling"> <br>
+							Parking:<input type="text" id="Parking" name="Parking"> <br>
+							Lot:<input type="text" id="Lot" name="Lot"> <br>
+							Rent:<input type="text" id="Rent" name="Rent"> <br>
+							<button onclick="showFrom()">submit</button><br>
+						</form>
+					</p>
+				<h2>Properties</h2>
+					<p>
+						<a href="CedarGrove.html"><img src="images/propertyPhotos/396_cedar_grove/IMG_5425.jpg" alt="Front of House" style="width:250px;height:150px;"></a> <br>
+						<a href="DaveBuck.html"><img src="images/propertyPhotos/2208_dave_buck_road/IMG_0888.jpg" alt="Front of House" style="width:250px;height:150px;"></a>
+						
+					</p>
+			</div>
+	</div>
+	
+	<div class="footer">
+		<p>
+			<a style="color: #d9c43f;" href="mailto:[INSERT EMAIL HERE]">[INSERT EMAIL HERE]</a>
+			&emsp;&emsp;<a style="color: #d9c43f;" href="default.html">Home</a>
+			&emsp;&emsp;<a style="color: #d9c43f;" href="aboutUs.html">About Us</a>
+			&emsp;&emsp;<a style="color: #d9c43f;" href="properties.html">Properties</a>
+			&emsp;&emsp;<a style="color: #d9c43f;" href="contactUs.html">Contact Us</a>
+		</p>
+	</div>
+    <script src="../../js/w3c.js"></script>
+</body>
+</html>
